@@ -29,7 +29,7 @@ print(addition_of_name)
 
 # but we can not add strings with number 
 
-text="Total state in India is = "
+text="Total state in India is : "
 number_of_states=29
 # This will give us error..  can only concatenate str (not "int") to str
 # print(text+number_of_states)
