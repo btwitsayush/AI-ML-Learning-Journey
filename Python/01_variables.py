@@ -1,6 +1,6 @@
 # To assign value to a variable we use assignment operatore (=)
 
-# We don't need to assign data types to variables python will automatically fetch that
+# We don't need to assign data types to variables python will automatically fetch that and decide which data type is this
 
 item1Name="Clothes"
 item1Price=100
