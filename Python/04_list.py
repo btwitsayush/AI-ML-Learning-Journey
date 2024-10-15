@@ -4,6 +4,9 @@ items=["fruits","bread","vegetables","cold-drinks"]
 
 # to access data at particular index we use indexing
 
+
+
+# Updating value at index 0
 items[0]="apples"
 
 print(items)
