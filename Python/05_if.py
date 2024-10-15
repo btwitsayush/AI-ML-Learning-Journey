@@ -31,8 +31,14 @@ condition=input("Are you enrolled in extracurricular activities ? Tell in Yes OR
 
 if(age>=18 and age<=25 and gpa>=3.5 and income<50000):
     print("Eligible for full scholarship.")
-elif(gpa>3.0 or condition=="Yes" ):
+elif(gpa>3 or condition=="Yes" ):
     print( "Eligible for partial scholarship.")
+elif(income>10000 and  condition!="Yes"):
+     print("Not eligible due to high family income.")
+elif(gpa<3 or age>30):
+      print("Not eligible for any scholarship.")
+else:
+     print("Check the student's profile for special cases.")
 
 
 
